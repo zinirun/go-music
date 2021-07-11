@@ -6,16 +6,16 @@ import "time"
 
 type Product struct {
 	Image       string  `json:"img"`
-	ImageAlt    string  `json:"imgalt"`
+	ImageAlt    string  `json:"img_alt"`
 	Price       float64 `json:"price"`
 	Promotion   float64 `json:"promotion"`
-	ProductName string  `json:"productname"`
+	ProductName string  `json:"product_name"`
 	Description string  `json:"description"`
 }
 
 type Customer struct {
-	FirstName string `json:"firstname"`
-	LastName  string `json:"lastname"`
+	FirstName string `json:"first_name"`
+	LastName  string `json:"last_name"`
 	Email     string `json:"email"`
 	LoggedIn  bool   `json:"loggedin"`
 }
